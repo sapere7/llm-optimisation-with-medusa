@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.log
+*.tmp
+*.swp
+.DS_Store
+.idea/
+*.bak
+*.orig
+node_modules/

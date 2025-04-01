@@ -1,0 +1,29 @@
+# Core Service Dependencies
+fastapi
+uvicorn[standard] # Includes httptools, websockets, python-dotenv, etc.
+pydantic
+torch
+transformers>=4.30.0 # Ensure a recent version
+huggingface_hub>=0.17.0
+deepspeed>=0.10.0 # Ensure a recent version for inference features
+numpy
+aiohttp # Often used by async frameworks
+
+# Optional Dependencies
+bitsandbytes # Uncomment if using 8-bit/4-bit quantization on GPU
+python-dotenv # For loading .env file
+
+# Tokenizer/Compatibility Helpers (often needed by transformers)
+protobuf
+sentencepiece
+tiktoken
+blobfile
+accelerate 
+
+# Testing & Benchmarking Dependencies
+pytest
+pytest-asyncio
+httpx>=0.25.0 # For async client
+tqdm # Progress bars
+matplotlib 
+pandas
