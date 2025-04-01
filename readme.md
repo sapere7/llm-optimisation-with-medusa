@@ -49,8 +49,8 @@ This approach provides a unified backend optimized by DeepSpeed and enables func
 
 1.  **Clone Repository**:
     ```bash
-    git clone <your-repo-url>
-    cd <repo-name>
+    git clone https://github.com/sapere7/llm-optimisation-with-medusa
+    cd llm-optimisation-with-medusa
     ```
 2.  **Create Virtual Environment (Recommended)**:
     ```bash
